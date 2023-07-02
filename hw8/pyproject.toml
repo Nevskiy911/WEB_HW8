@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw8"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Malieiev <maleev1820@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
